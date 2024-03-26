@@ -1,0 +1,75 @@
+
+h1 {
+    color: #eeac3a; 
+    text-align: center;
+    font-family: 'Monaco', monospace;
+}
+h2 { 
+  color: #d0c762; 
+  font-family: 'Monaco', monospace;
+}
+p {
+  font-family: 'Lucida Console', monospace; 
+  color:#393939;
+  font-size: 18px;
+}
+ul, ol {
+  font-family: 'Lucida Console', monospace; 
+  font-size: 18px;
+}
+#specificparagraph {
+  font-family: 'Lucida Console', monospace; 
+  font-size: 20px; 
+  color: #393939;
+  font-style: italic;  
+  text-align: center;
+}
+.custom-text {
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: #393939;
+font-size: 18px; 
+}
+#highlight {
+  font-family: 'Monaco', monospace; 
+  font-weight: bold;
+  font-size: 15px; 
+  }
+ul  {
+    list-style-image:url(icons8-home-32.png);
+}
+ol.check { 
+  list-style-type:lower-roman;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color:#eeac3a;
+}
+td:first-child {
+    background-color:#d0c762; /* modifies the first column */
+}
+
+td:nth-child(2) {
+    background-color: #e2c1c9; /* modifies the second column */
+}
+
+tr:nth-child(even) {
+    background-color: #d0c762; /* modifies all even rows in the table */
+}
+
+th, td{
+  border: 2px solid #925c45;
+  padding: 5px;
+
+}
